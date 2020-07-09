@@ -54,3 +54,39 @@ var a = {'list' : {'egoing' :10, 'k8805':8, 'sorialgi':80}
   a.show();
 
 ```
+
+
+## 모듈
+```javascript
+// main 파일
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<script type="text/javascript" src="greeting.js"></script>
+	
+</head>
+<body>
+
+<ul>
+	<li>egoing</li>
+	<li>graphiite</li>
+	<li>leezche</li>
+</ul>
+
+# hello world<br />	
+<script type="text/javascript">
+	
+	alert(welcome());
+
+</script>
+
+</body>
+</html>
+
+
+// greeting.js  파일 생성
+function welcome(){
+		return 'Hello world';
+	}
+```
