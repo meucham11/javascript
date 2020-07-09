@@ -14,4 +14,35 @@
 배열.shift();  배열 맨앞 제거
 배열.pop();    배열 맨뒤 제거  
 
+
+*객체
+var a = {'list1' : 10, 'list2':20}
+		var b = {'list1' : {'egoing':10,
+		                    'k8805':8,
+		                    'show' : function(){alert('hello world');
+                			}
+                }
+        }
+        document.write(a['list1'],'\n');
+        document.write(b['list1']['egoing'],'\n');
+        b['list1']['show']();  // 객체에 함수를 넣을 수 있다는것
+        
+        
+var a = {'list' : {'egoing' :10, 'k8805':8, 'sorialgi':80}
+			    ,'show': function(){
+						console.log(this.list);   // this 해당 객체
+					}		
+		}
+	    a['show']();
+      
+      
+var a = {'list' : {'egoing' :10, 'k8805':8, 'sorialgi':80}
+      ,'show': function(){
+        for(var name in this.list){
+          console.log(name, this.list[name],12312,14124124);
+        }
+      }		
+}
+  a.show();
+
 ```
