@@ -1,6 +1,6 @@
 
 함수
-```
+```javascript
 배열.length  배열 원소갯수
 
 *추가
