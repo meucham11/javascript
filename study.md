@@ -57,7 +57,6 @@ var a = {'list' : {'egoing' :10, 'k8805':8, 'sorialgi':80}
 
 
 ## 모듈
-라이브러리의 API를 내것으로 만들기
 ```javascript
 // main 파일
 <!DOCTYPE html>
