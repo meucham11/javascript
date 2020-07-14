@@ -55,6 +55,37 @@ var a = {'list' : {'egoing' :10, 'k8805':8, 'sorialgi':80}
 
 ```
 
+```javascript
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<script type="text/javascript" src="jquery.js"></script>
+	
+</head>
+<body>
+
+	<ul id="list">
+		<li>egoing</li>
+		<li>graphiite</li>
+		<li>leezche</li>
+	</ul>
+	<input type="button" value="execute" id="execute_btn"/>
+	
+
+	<script type="text/javascript">
+		//jquery는 모두 $로 시작
+		//# = 아이디 값 
+		$('#execute_btn').click(function(){
+			$('#list li').text('coding everybody')
+		});
+	</script>
+
+
+</script>
+
+```
+
 
 ## 모듈
 ```javascript
@@ -90,3 +121,5 @@ function welcome(){
 		return 'Hello world';
 	}
 ```
+
+
